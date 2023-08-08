@@ -1,0 +1,17 @@
+#coral {
+  --palette-primary-100: #8d3d54; /* Before 6.3.0: --palette-primary-lightest */
+  --palette-primary-200: #8d3d54; /* Before 6.3.0: --palette-primary-lighter */
+  --palette-primary-300: #8d3d54; /* Before 6.3.0: --palette-primary-light */
+  --palette-primary-400: #8d3d54; /* Before 6.3.0: --palette-primary-main */
+  --palette-primary-500: #b30838; /* Before 6.3.0: --palette-primary-main */
+  --palette-primary-600: #b30838; /* Before 6.3.0: --palette-primary-main */
+  --palette-primary-700: #b30838; /* Before 6.3.0: --palette-primary-main */
+  --palette-primary-800: #b30838; /* Before 6.3.0: --palette-primary-dark */
+  --palette-primary-900: #b30838; /* Before 6.3.0: --palette-primary-darkest */
+  --theme-primary: #b30838;
+  --theme-primary-70: #b30838cc;
+  --theme-alternate: #f1cb00;
+  --theme-alternate-70: #f1cb00cc;
+  --theme-primary-contrast: #fafafa;
+  --theme-alternate-contrast: #013a81;
+}
