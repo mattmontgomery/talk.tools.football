@@ -53,6 +53,25 @@
   --theme-alternate-contrast: #013a81;
 }
 
-/**
-Blue: (0, 85, 149); Green: (93, 151, 65); Shale: (20, 37, 48)
-*/
+@media (prefers-color-scheme: dark) {
+  #coral {
+    color: white !important;
+
+    --palette-background-body: inherit;
+    --palette-background-input: #3d3a3a;
+    --palette-divider: rgba(255, 255, 255, 0.12);
+    --palette-text-000: inherit;
+    --palette-text-100: #e0e0e0;
+    --palette-text-500: #e0e0e0;
+    --palette-text-900: #fafafa;
+
+    --palette-grey-100: #262729;
+    --palette-grey-200: #313233;
+    --palette-grey-300: #505152;
+    --palette-grey-400: #8a8a8b;
+    --palette-grey-500: #aeaeaf;
+  }
+  #coral .coral-comment-username {
+    color: var(--palette-primary-900) !important;
+  }
+}
