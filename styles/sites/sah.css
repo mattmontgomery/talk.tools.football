@@ -34,6 +34,7 @@
   --palette-divider: var(--color-border-primary);
   --palette-background-body: var(--color-background-primary);
   --palette-background-input: var(--color-background-secondary);
+  --palette-grey-100: var(--color-background-secondary);
 }
 #coral .coral-comment-username {
   color: var(--palette-primary-900) !important;
