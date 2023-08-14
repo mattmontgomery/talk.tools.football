@@ -1,51 +1,40 @@
 #coral {
   padding: 0.5rem;
   --palette-primary-100: var(
-    --color-accent
+    --ghost-accent-color
   ); /* Before 6.3.0: --palette-primary-lightest */
   --palette-primary-200: var(
-    --color-accent
+    --ghost-accent-color
   ); /* Before 6.3.0: --palette-primary-lighter */
   --palette-primary-300: var(
-    --color-accent
+    --ghost-accent-color
   ); /* Before 6.3.0: --palette-primary-light */
   --palette-primary-400: var(
-    --color-accent
+    --ghost-accent-color
   ); /* Before 6.3.0: --palette-primary-main */
   --palette-primary-500: var(
-    --color-accent
+    --ghost-accent-color
   ); /* Before 6.3.0: --palette-primary-main */
   --palette-primary-600: var(
-    --color-accent
+    --ghost-accent-color
   ); /* Before 6.3.0: --palette-primary-main */
   --palette-primary-700: var(
-    --color-accent
+    --ghost-accent-color
   ); /* Before 6.3.0: --palette-primary-main */
   --palette-primary-800: var(
-    --color-accent
+    --ghost-accent-color
   ); /* Before 6.3.0: --palette-primary-dark */
   --palette-primary-900: var(
-    --color-accent
+    --ghost-accent-color
   ); /* Before 6.3.0: --palette-primary-darkest */
   --palette-text-000: var(--color-text-primary);
   --palette-text-100: var(--color-text-primary);
   --palette-text-500: var(--color-text-primary);
   --palette-text-900: var(--color-text-secondary);
   --palette-divider: var(--color-border-primary);
+  --palette-background-body: var(--color-background-primary);
+  --palette-background-input: var(--color-background-secondary);
 }
-
-@media (prefers-color-scheme: dark) {
-  #coral {
-    --palette-background-body: var(--color-background-primary);
-    --palette-background-input: var(--color-background-secondary);
-
-    --palette-grey-100: #262729;
-    --palette-grey-200: #313233;
-    --palette-grey-300: #505152;
-    --palette-grey-400: #8a8a8b;
-    --palette-grey-500: #aeaeaf;
-  }
-  #coral .coral-comment-username {
-    color: var(--palette-primary-900) !important;
-  }
+#coral .coral-comment-username {
+  color: var(--palette-primary-900) !important;
 }
