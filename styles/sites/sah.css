@@ -35,6 +35,7 @@
   --palette-background-body: var(--color-background-primary);
   --palette-background-input: var(--color-background-secondary);
   --palette-grey-100: var(--color-background-secondary);
+  --palette-grey-200: var(--color-background-secondary);
   --palette-grey-500: var(--color-text-secondary);
 }
 #coral .coral-comment-username {
