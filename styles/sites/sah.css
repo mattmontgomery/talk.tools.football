@@ -42,7 +42,8 @@
   color: var(--palette-primary-900) !important;
 }
 
-#post-comment-form {
+#post-comment-form,
+#comments-postCommentForm-form {
   background-color: white;
   padding: 0.5rem;
   border-radius: var(--border-radius);
