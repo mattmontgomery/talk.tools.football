@@ -41,7 +41,9 @@
 #coral .coral-comment-username {
   color: var(--palette-primary-900) !important;
 }
-
+#coral .coral-guidelines {
+  color: black !important;
+}
 #post-comment-form,
 #comments-postCommentForm-form {
   background-color: white;
