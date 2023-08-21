@@ -42,7 +42,10 @@
   color: var(--palette-primary-900) !important;
 }
 #coral .coral-guidelines,
-#coral .coral-featuredComment-content {
+#coral .coral-featuredComment-content,
+#coral .coral-featuredComment-reactButton,
+#coral .coral-featuredComment-replies,
+#coral .coral-featuredComment-goToConversationButton {
   color: black !important;
 }
 #post-comment-form,
