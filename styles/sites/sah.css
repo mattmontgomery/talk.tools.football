@@ -50,7 +50,7 @@
 #coral #report-comments-form textarea {
   color: black !important;
 }
-#coral .coral-comment-caret {
+#coral .coral-comment-caret svg {
   color: var(--color-accent);
 }
 #coral .coral-reportPopover-submitButton {
