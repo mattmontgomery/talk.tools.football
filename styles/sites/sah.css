@@ -56,6 +56,9 @@
 #coral .coral-reportPopover-submitButton {
   color: var(--color-accent);
 }
+#coral .coral-dropdownButton {
+  color: var(--color-accent);
+}
 #post-comment-form,
 #comments-postCommentForm-form {
   background-color: white;
