@@ -41,7 +41,8 @@
 #coral .coral-comment-username {
   color: var(--palette-primary-900) !important;
 }
-#coral .coral-guidelines {
+#coral .coral-guidelines,
+#coral .coral-featuredComment-content {
   color: black !important;
 }
 #post-comment-form,
