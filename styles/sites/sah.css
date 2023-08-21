@@ -53,7 +53,8 @@
 #coral .coral-comment-caret svg {
   color: var(--color-accent);
 }
-#coral .coral-reportPopover-submitButton {
+#coral .coral-reportPopover-submitButton,
+#coral .coral-reportPopover-submitButton svg {
   color: var(--color-accent);
 }
 #coral .coral-dropdownButton {
