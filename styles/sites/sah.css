@@ -27,6 +27,7 @@
   --palette-primary-900: var(
     --ghost-accent-color
   ); /* Before 6.3.0: --palette-primary-darkest */
+  --palette-success-100: #144b0f;
   --palette-text-000: var(--color-text-primary);
   --palette-text-100: var(--color-text-primary);
   --palette-text-500: var(--color-text-primary);
@@ -45,8 +46,15 @@
 #coral .coral-featuredComment-content,
 #coral .coral-featuredComment-reactButton,
 #coral .coral-featuredComment-replies,
-#coral .coral-featuredComment-goToConversationButton {
+#coral .coral-featuredComment-goToConversationButton,
+#coral #report-comments-form textarea {
   color: black !important;
+}
+#coral .coral-comment-caret {
+  color: var(--color-accent);
+}
+#coral .coral-reportPopover-submitButton {
+  color: var(--color-accent);
 }
 #post-comment-form,
 #comments-postCommentForm-form {
