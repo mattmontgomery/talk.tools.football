@@ -1,7 +1,7 @@
 #coral {
   padding: 0.5rem;
   --palette-primary-100: var(
-    --ghost-accent-color
+    var(--color-background-secondary)
   ); /* Before 6.3.0: --palette-primary-lightest */
   --palette-primary-200: var(
     --ghost-accent-color
