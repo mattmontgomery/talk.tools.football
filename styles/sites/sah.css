@@ -60,6 +60,9 @@
 #coral .coral-dropdownButton {
   color: var(--color-accent);
 }
+#coral .coral-comment-highlight {
+  background-color: var(--color-background-secondary);
+}
 #post-comment-form,
 #comments-postCommentForm-form {
   background-color: white;
