@@ -28,7 +28,7 @@
     --ghost-accent-color
   ); /* Before 6.3.0: --palette-primary-darkest */
   --palette-success-100: #144b0f;
-  --palette-text-000: var(--color-text-primary);
+  --palette-text-000: white;
   --palette-text-100: var(--color-text-primary);
   --palette-text-500: var(--color-text-primary);
   --palette-text-900: var(--color-text-secondary);
@@ -37,7 +37,7 @@
   --palette-background-input: var(--color-background-secondary);
   --palette-grey-100: var(--color-background-secondary);
   --palette-grey-200: var(--color-background-secondary);
-  --palette-grey-500: var(--color-text-primary);
+  --palette-grey-500: var(--color-border-primary);
 }
 #coral .coral-comment-username {
   color: var(--palette-primary-900) !important;
