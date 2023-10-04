@@ -40,7 +40,7 @@
   --palette-grey-500: var(--color-border-primary);
 }
 #coral .coral-comment-username {
-  color: var(--palette-primary-900) !important;
+  color: var(--color-accent) !important;
 }
 #coral .coral-guidelines,
 #coral .coral-featuredComment-content,
